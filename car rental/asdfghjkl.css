@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display:initial;
+    align-items: center;
+    justify-content:center;
+    background: hwb(93 58% 6%);
+    
+ 
+    
+}
+.main{
+   width: 350px;
+   height: 88px;
+  
+   background: none;
+   border-radius: 5px;
+   box-shadow: inset .2rem .2rem .5rem #ea6a0e, 
+   inset -.2rem -.2rem .5rem rgb(131, 243, 111);
+   
+}
+
+.end{
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    color: #515358;
+    margin: auto;
+    padding: 15px;
+    box-shadow: inset .5rem .5rem .5rem #c8d0e7, 
+   inset -.2rem -.2rem .5rem #fff;
+   text-shadow: 3px 4px .5px #95a0e7;
+   box-shadow: inset .2rem .2rem .5rem #c8d0e7, 
+   inset -.2rem -.2rem .5rem #fff
+
+}
+.title{
+    width: max-content;
+    text-align: center;
+    color: #515358;
+    margin: auto;
+    padding: 15px;
+    box-shadow:inset .2rem .2rem .5rem #c8d0e7, 
+    inset -.2rem -.2rem .5rem #fff ;
+}
+.main:hover{
+    box-shadow:inset .3rem .3rem .6rem #c8d0e7, 
+    inset -.2rem -.2rem .5rem #fff ;
+}
+
+.main label{
+    color:#515358;
+    text-transform: capitalize;
+font-size: 18px;
+}
+.main input{
+    display: block;
+    width: 100%;
+    margin: 5px 0 15px 0;
+    border: none;
+    padding: 10px 15px;
+    font-size: 15px;
+    border-radius: 5px;
+    box-shadow:inset .2rem .2rem .5rem #c8d0e7, 
+    inset -.2rem -.2rem .5rem #fff ;
+    background: none;
+
+}
+.main input::placeholder{
+    color: #95a0be;
+
+
+}
+
+.main input:focus{
+    outline: none;
+    box-shadow:inset .3rem .3rem .5rem #c8d0e7, 
+    inset -.2rem -.2rem .5rem #ffffff ;
+    background: none;
+
+}
+#showpass{width: auto;
+
+     display:inline;}
+     label{
+        user-select: inline;
+     }
+     label{user-select:none;}
+     .tej{
+        width: 100%;
+        height: 50%;
+        background: #fef60b;
+        border-radius: 0%;
+    
+     }
+     .us{
+        float:right;
+     }
+     .img{
+        float:right;
+        
+     }
+     .xx{
+        float: right;
+     }
+     
